@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  font-family: "Kodchasan";
+  background-color: #EFEEF3;
+}
+
+header {
+  padding: 5px 20px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 430px) {
+  header nav {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+@media (max-width: 430px) {
+  header nav ul {
+    flex-direction: column;
+  }
+}
+header nav ul li {
+  text-align: center;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+@media (max-width: 375px) {
+  header nav ul li a {
+    font-size: 20px;
+  }
+}
+
+main section .bg {
+  width: 100%;
+}
+@media (max-width: 430px) {
+  main section .bg {
+    display: none;
+  }
+}
+
+.secondmain .firstsection {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 15rem;
+}
+@media (max-width: 430px) {
+  .secondmain .firstsection {
+    display: block;
+    margin: 2rem 1rem;
+  }
+}
+.secondmain .firstsection div {
+  width: 573px;
+  margin-top: 50px;
+}
+@media (max-width: 430px) {
+  .secondmain .firstsection div {
+    width: 100%;
+  }
+}
+.secondmain .firstsection div h1 {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+@media (max-width: 430px) {
+  .secondmain .firstsection div h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+.secondmain .firstsection div p {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+@media (max-width: 430px) {
+  .secondmain .firstsection div p {
+    font-size: 20px;
+  }
+}
+.secondmain .firstsection .firstimage {
+  width: 450px;
+  height: 355px;
+}
+@media (max-width: 430px) {
+  .secondmain .firstsection .firstimage {
+    width: 100%;
+    height: 253px;
+  }
+}
+.secondmain .secondsection {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 15rem;
+  gap: 20rem;
+}
+@media (max-width: 430px) {
+  .secondmain .secondsection {
+    display: block;
+    margin: 2rem 1rem;
+  }
+}
+.secondmain .secondsection .texto {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+@media (max-width: 430px) {
+  .secondmain .secondsection .texto {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.secondmain .secondsection .imagens {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+@media (max-width: 430px) {
+  .secondmain .secondsection .imagens {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-left: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */
