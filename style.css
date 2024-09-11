@@ -8,7 +8,7 @@
 body {
   color: #000;
   font-family: "Kodchasan";
-  background-color: #EFEEF3;
+  background-color: #efeef3;
 }
 
 header {
@@ -28,7 +28,7 @@ header nav {
 header nav ul {
   display: flex;
   list-style: none;
-  gap: 60px;
+  gap: 40px;
 }
 @media (max-width: 430px) {
   header nav ul {
@@ -49,96 +49,100 @@ header nav ul li a {
   }
 }
 
-main section .bg {
+section .bg {
   width: 100%;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media (max-width: 430px) {
-  main section .bg {
+  section .bg {
     display: none;
   }
 }
 
-.secondmain .firstsection {
+.tdconteudo .firstsection {
   display: flex;
   justify-content: space-between;
   margin: 5rem 15rem;
 }
 @media (max-width: 430px) {
-  .secondmain .firstsection {
+  .tdconteudo .firstsection {
     display: block;
     margin: 2rem 1rem;
   }
 }
-.secondmain .firstsection div {
+.tdconteudo .firstsection div {
   width: 573px;
   margin-top: 50px;
 }
 @media (max-width: 430px) {
-  .secondmain .firstsection div {
+  .tdconteudo .firstsection div {
     width: 100%;
   }
 }
-.secondmain .firstsection div h1 {
+.tdconteudo .firstsection div h1 {
   font-size: 36px;
   font-weight: 400;
   text-align: center;
 }
 @media (max-width: 430px) {
-  .secondmain .firstsection div h1 {
+  .tdconteudo .firstsection div h1 {
     font-size: 24px;
     font-weight: 500;
   }
 }
-.secondmain .firstsection div p {
+.tdconteudo .firstsection div p {
   margin-top: 20px;
   font-size: 24px;
   text-align: center;
 }
 @media (max-width: 430px) {
-  .secondmain .firstsection div p {
+  .tdconteudo .firstsection div p {
     font-size: 20px;
   }
 }
-.secondmain .firstsection .firstimage {
+.tdconteudo .firstsection .firstimage {
   width: 450px;
   height: 355px;
 }
 @media (max-width: 430px) {
-  .secondmain .firstsection .firstimage {
+  .tdconteudo .firstsection .firstimage {
     width: 100%;
     height: 253px;
   }
 }
-.secondmain .secondsection {
+.tdconteudo .secondsection {
   display: flex;
   justify-content: space-between;
   margin: 5rem 15rem;
   gap: 20rem;
 }
 @media (max-width: 430px) {
-  .secondmain .secondsection {
+  .tdconteudo .secondsection {
     display: block;
-    margin: 2rem 1rem;
+    margin: 2rem 2rem;
   }
 }
-.secondmain .secondsection .texto {
+.tdconteudo .secondsection .texto {
+  margin-top: 50px;
   font-weight: 400;
   font-size: 30px;
-  text-align: center;
 }
 @media (max-width: 430px) {
-  .secondmain .secondsection .texto {
+  .tdconteudo .secondsection .texto {
     font-size: 20px;
     font-weight: 500;
+    text-align: center;
   }
 }
-.secondmain .secondsection .imagens {
+.tdconteudo .secondsection .imagens {
   display: flex;
-  gap: 5rem;
+  gap: 6rem;
   margin-top: 2rem;
 }
 @media (max-width: 430px) {
-  .secondmain .secondsection .imagens {
+  .tdconteudo .secondsection .imagens {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
